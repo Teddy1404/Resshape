@@ -10,21 +10,21 @@ const Home = () => {
        
           <div className="icons">
             <a href="">
-              <i class="fa-brands fa-facebook fa-beat-fade neon"></i>
+              <i class="fa-brands fa-xl my-4 fa-facebook fa-beat-fade neon"></i>
             </a>
             <a href="">
-              <i class="fa-brands fa-instagram fa-beat"></i>
+              <i class="fa-brands fa-xl my-4 fa-instagram fa-beat"></i>
             </a>
             <a href="">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="">
-              {" "}
-              <i class="fa-brands fa-twitter fa-beat"></i>
+              <i class="fa-brands fa-xl my-4 fa-linkedin fa-beat"></i>
             </a>
             <a href="">
               {" "}
-              <i class="fa-brands fa-youtube fa-beat"></i>
+              <i class="fa-brands fa-xl my-4 fa-twitter fa-beat"></i>
+            </a>
+            <a href="">
+              {" "}
+              <i class="fa-brands fa-xl my-4 fa-youtube fa-beat"></i>
             </a>
           </div>
           

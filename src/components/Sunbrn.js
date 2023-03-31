@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Sunburn = () => {
     return (  
         <>  
-        <div className="relative mx-auto justify-center flex text-white my-32">
+        <div className="relative mx-auto justify-center flex text-white mb-32">
         <img className="w-[95%] rounded-2xl" src="website-1.jpg" />
             <div className="absolute top-10 left-32 z-20">
                 <h1 className="font-semibold text-6xl">

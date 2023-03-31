@@ -23,14 +23,14 @@ const Footer = () => {
                     <BsYoutube className="w-[40px] h-[25px] hover:text-red-600 transition ease-in duration-200" />
                 </div>
             </div>
-            <hr className="my-7" />
+            <hr className="my-7 bg-white h-[1px] "  />
             <div className="flex flex-row text-white mx-52 justify-between">
             <div>
                 <ul>
                 <li className="font-bold text-xl">
                     Sitemap
                 </li>
-                <hr className="mt-2 w-3/4" />
+                <hr className="mt-2 w-3/4 bg-white text-white h-[1px]" />
                     {sitemap.map((item) => (
                         <li className="my-2 hover:underline transition ease hover:text-white text-slate-200 duration-200">
                             {item}
@@ -43,7 +43,7 @@ const Footer = () => {
                 <li className="font-bold text-xl">
                     Feature
                 </li>
-                <hr className="mt-2 w-3/4" />
+                <hr className="mt-2 w-3/4 bg-white text-white h-[1px]" />
                     {feature.map((item) => (
                         <li className="my-2 hover:underline transition ease-in-out duration-200">
                             {item}
@@ -56,7 +56,7 @@ const Footer = () => {
                 <li className="font-bold text-xl">
                     About VNIT
                 </li>
-                <hr className="mt-2 w-3/4" />
+                <hr className="mt-2 w-3/4 bg-white text-white h-[1px]" />
                     {vnit.map((item) => (
                         <li className="my-2 hover:underline transition ease-in-out duration-200">
                             {item}
@@ -69,7 +69,7 @@ const Footer = () => {
                 <li className="font-bold text-xl">
                     Legals
                 </li>
-                <hr className="mt-2 w-3/4" />
+                <hr className="mt-2 w-3/4 bg-white text-white h-[1px]" />
                     {legals.map((item) => (
                         <li className="my-2 hover:underline transition ease-in-out duration-200">
                             {item}
@@ -81,10 +81,10 @@ const Footer = () => {
             </section>
             <div className="flex mt-5 mx-24 justify-between text-white">
                 <h1 className="text-lg font-semibold">
-                Copyright © 2023 <span className="text-slate-400">AXIS'23.</span> 
+                Copyright © 2023 <span className="text-slate-400 text-xl">AXIS'23.</span> 
                 </h1>
                 <h1 className="text-lg font-semibold">
-                Made with ❤️ by <span className="text-slate-400">Team 404notfound</span>
+                Made with ❤️ by <span className="text-slate-400 text-xl">Team 404notfound</span>
                 </h1>
             </div>
             

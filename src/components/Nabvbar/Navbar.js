@@ -8,7 +8,7 @@ const Navbar = () => {
                 <img src="/logo.png" className="w-[40px]" />
                 <h1 className="font-semibold text-xl ml-4">AXIS ' 23</h1>
             </div>
-            <ul className="flex-row mt-1 flex gap-10 ">
+            <ul className="flex-row mt-1 ml-44 justify-end flex gap-10 ">
             {list.map((item) => (
                 <li className="hover:text-[#38bdf8] transition ease-in duration-200">
                     {item}
